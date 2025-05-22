@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>342</x><y>414</y><w>189</w><h>171</h></coordinates><panel_attributes>Nave
+Abstract
+--
+#nombre: str
+#capacidadTripulacion: int
+#añoLanzamiento: int
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>612</x><y>765</y><w>189</w><h>72</h></coordinates><panel_attributes>CruceroEstelar
+--
+-cantidadPasajeros: int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>774</y><w>189</w><h>72</h></coordinates><panel_attributes>Exploracion
+--
+-tipoMision: str
+--
++-iniciarExploracion():</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>333</x><y>774</y><w>189</w><h>72</h></coordinates><panel_attributes>Carguero
+--
+-capacidadCarga:int
+--
++iniciarExploracion()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>135</y><w>225</w><h>99</h></coordinates><panel_attributes>SistemaGestionExpedicionesEspaciales
+--
++Nave: &lt;ArrayList&gt;
+--
++mostrarNaves()
++agregarNave()
++iniciarExploracion()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>414</x><y>576</y><w>27</w><h>216</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>576</y><w>216</w><h>216</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>220;10;10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>513</x><y>576</y><w>207</w><h>207</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;210;10;210;210</additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>225</y><w>27</w><h>207</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element></diagram>
